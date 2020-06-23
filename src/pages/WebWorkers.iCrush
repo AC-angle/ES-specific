@@ -1,5 +1,8 @@
 <template>
     <div class='notepage'>
+        <h1>
+            WebWorkders 多线程
+        </h1>
         <p>
             我们都知道，浏览器执行js代码是单线程的，当页面脚步执行时，页面是没办法响应别的的，直到脚步的结束，而这里介绍的WebWorkers就可以改变这一切。
         </p>

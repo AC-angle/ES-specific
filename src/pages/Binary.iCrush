@@ -1,8 +1,8 @@
 <template>
     <div class='notepage'>
-        <h2>
+        <h1>
             ArrayBuffer 二进制数组
-        </h2>
+        </h1>
         <p>
             简单的说，ArrayBuffer就代表了内存中的一段二进制数据，不可以直接读写，只可以通过在上面建立TypedArray视图或DataView视图来操作这段二进制数据，TypedArray视图主要用来操作简单类型的二进制数据，DataView用来操作复杂类型的二进制数据。
         </p>
