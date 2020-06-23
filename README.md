@@ -9,8 +9,8 @@
 
 ## 文章列表
 
-- [【0】 WebWorkders 多线程](https://ac-angle.github.io/ES-specific/index.html/#WebWorkers)
-- [【1】 ArrayBuffer 二进制数组](https://ac-angle.github.io/ES-specific/index.html/#Binary)
+- [【0】 WebWorkders 多线程](https://ac-angle.github.io/ES-specific/index.html#WebWorkers)
+- [【1】 ArrayBuffer 二进制数组](https://ac-angle.github.io/ES-specific/index.html#Binary)
 
 ## 贡献者
 
