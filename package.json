@@ -42,6 +42,6 @@
     "@yelloxing/normalize.css": "^0.2.2",
     "icrush": "^2.0.1",
     "image2d": "^1.7.2",
-    "wscode": "^1.7.4"
+    "wscode": "^1.7.5"
   }
 }

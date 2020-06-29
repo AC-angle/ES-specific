@@ -9,6 +9,8 @@
 
 ## 文章列表
 
+> 我们会在项目根目录的laboratory文件夹里面维护一些实验用例，这些可能会是独立的，用于演示或有用的经验！
+
 - [【0】 WebWorkders 多线程](https://ac-angle.github.io/ES-specific/index.html#WebWorkers)
 - [【1】 ArrayBuffer 二进制数组](https://ac-angle.github.io/ES-specific/index.html#Binary)
 

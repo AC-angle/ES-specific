@@ -29,14 +29,14 @@
             页面可以和worker交互传递数据，这样worker在不影响页面干有意义的事情的情况下可以默默去计算，好了告诉一下页面，使用这些数据。
         </p>
         <pre wscode:javascript>//[主页面代码]
-    myWorker.postMessage("data-from-mainpage");
+myWorker.postMessage("data-from-mainpage");
+
+//[worker代码]
+onmessage = function (oEvent) {
+
+    console.log("主页面发送过来的数据是："+oEvent.data));
     
-    //[worker代码]
-    onmessage = function (oEvent) {
-    
-        console.log("主页面发送过来的数据是："+oEvent.data));
-        
-    };</pre>
+};</pre>
         <p>
             上面是【主页面发送数据给worker脚本】的情况，是的，你看见了非常亲切的postMessage，好吧，我喜欢这个东西。
         </p>
@@ -79,7 +79,7 @@ postMessage("data-from-mainpage");</pre>
         </h2>
         <ul>
             <li>
-                1.无法访问DOM节点，无法访问全局变量或是全局函数，法调用alert()或者confirm之类的函数和无法访问window、document之类的浏览器全局变量；
+                1.无法访问DOM节点，无法访问全局变量或是全局函数，无法调用alert()或者confirm之类的函数和无法访问window、document之类的浏览器全局变量；
             </li>
             <li>
                 2.不过Web Worker中的Javascript依然可以使用setTimeout(),setInterval()之类的函数，也可以使用XMLHttpRequest对象来做Ajax通信。
